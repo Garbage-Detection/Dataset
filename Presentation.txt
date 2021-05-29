@@ -1,0 +1,129 @@
+\documentclass{beamer}
+\usepackage{textcomp}
+\documentclass{beamer}
+\usepackage{color}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{hyperref}
+
+\graphicspath{ {./images/} }
+\begin{document}
+
+\begin{frame}\centering\huge\Bold\textcolor{blue}{GARBAGE DETECTION}
+   
+    \centering \Large Team Members
+        \begin{center}
+            \begin{tabular}{c}
+                \Large
+                    T. Akshitha - CSE\\
+                \Large
+                    Alekya Narne - CSE\\
+                \Large
+                    S. Aarthi - IT\\
+                \Large
+                    K. Keerthi Krishna - EEE\\
+                \Large
+                    K.JayaLakshmi - ECE\\
+                    \\
+                \footnotesize
+            \end{tabular}
+        \vspace{-4ex}
+    \end{center}
+    
+    \begin{center}
+        \centering \small BVRIT HYDERABAD College of Engineering for Women
+   \end{center}
+  \today
+\end{frame}
+   
+\begin{frame}{PROBLEM STATEMENT}
+     Detection and Classification of Garbage, further, collected data forwarded
+to concerned authorities
+\end{frame}
+
+\begin{frame}{DATA SET}
+    \begin{itemize}
+        
+        \item The dataset consists of different garbage images
+        \item They are classified into 6 classes
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{APPROACH}
+    \begin{center}
+        \includegraphics[scale=0.75]{mlflowchart (5).jpeg}
+    \end{center}
+\end{frame}
+
+\begin{frame}{TECHNICAL STACK}
+    \textbf{\Large  Libraries}
+        \\ { \begin{itemize}
+            \item Keras
+            \item Numpy
+            \item matplotlib
+            \item opencv
+        \end{itemize}
+    }
+    \textbf {\Large Tools }
+    \begin{itemize}
+        \item Google Colab
+        \item Jupyter Notebook
+        \item Latex
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{LEARNINGS}
+    \begin{enumerate}
+        \item CNN model building
+            \begin{itemize}
+                \item What is CNN model
+                \item How to optimize the model by adding layers
+            \end{itemize}
+        \item Understanding the pre-trained models
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{CHALLENGES}
+    \begin{enumerate}
+        \item Splitting the dataset
+            \begin{itemize}
+                \item Dividing the dataset in 8:2 ratio as test and train folders
+            \end{itemize}
+        \item Building the model
+            \begin{itemize}
+                \item Obtaining the accuracy
+        \end{itemize}
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}{GITHUB}
+\includegraphics[scale=0.3]{github.png}
+\end{frame}
+
+\begin{frame}{CODE}
+\includegraphics[scale=0.3]{11.png}
+\end{frame}
+\begin{frame}{CODE}
+\includegraphics[scale=0.3]{22.png}
+\end{frame}
+\begin{frame}{CODE}
+\includegraphics[scale=0.3]{33.png}
+\end{frame}
+
+
+\begin{frame}{REFERENCES}
+    \begin{itemize}
+        \item \href{https://www.kaggle.com/sanketmathur7/garbage-classification-cnn}{https://www.kaggle.com/sanketmathur7/garbage-classification-cnn}
+        \item \href{https://www.researchgate.net/publication/329039476_Autonomous_garbage_detection_for_intelligent_urban_management/fulltext/5bf2c16492851c6b27caa536/Autonomous-garbage-detection-for-intelligent-urban-management.pdf}{https://www.researchgate.net/publication/329039476_Autonomous_garbage_detection_for_intelligent_urban_management/fulltext/5bf2c16492851c6b27caa536/Autonomous-garbage-detection-for-intelligent-urban-management.pdf}
+        \item \href {https://colab.research.google.com/drive/1QBE-ee-GYlOTjDEIIy_22vsqtRb1cfSO#scrollTo=SYm3fW0DwIvT}{https://colab.research.google.com/drive/1QBE-ee-GYlOTjDEIIy_22vsqtRb1cfSO#scrollTo=SYm3fW0DwIvT}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{}
+    \begin{center}
+        \Large THANK YOU
+    \end{center}
+\end{frame}
+
+\end{document}
